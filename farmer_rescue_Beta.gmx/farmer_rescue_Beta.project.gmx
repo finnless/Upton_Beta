@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\intro</sound>
     <sound>sound\background</sound>
+    <sound>sound\game_song</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\portal</sprite>
@@ -24,24 +25,35 @@
       <sprite>sprites\uptons</sprite>
       <sprite>sprites\uptonr</sprite>
       <sprite>sprites\uptonl</sprite>
-      <sprite>sprites\robot</sprite>
     </sprites>
     <sprites name="Door">
       <sprite>sprites\doorc</sprite>
       <sprite>sprites\dooro</sprite>
     </sprites>
-    <sprite>sprites\GGintro</sprite>
     <sprites name="PauseMenu">
       <sprite>sprites\spr_pause_continue</sprite>
       <sprite>sprites\spr_pause_exit</sprite>
       <sprite>sprites\spr_pause_options</sprite>
       <sprite>sprites\spr_pause_backdrop</sprite>
     </sprites>
-    <sprite>sprites\test</sprite>
+    <sprites name="Enemy">
+      <sprite>sprites\enemyl</sprite>
+      <sprite>sprites\enemyr</sprite>
+      <sprite>sprites\enemys</sprite>
+    </sprites>
     <sprites name="MainMenu">
       <sprite>sprites\menu_start</sprite>
       <sprite>sprites\menu_quit</sprite>
+      <sprite>sprites\menu_credits</sprite>
+      <sprite>sprites\menu_story</sprite>
     </sprites>
+    <sprites name="Boss">
+      <sprite>sprites\bossr</sprite>
+      <sprite>sprites\bossl</sprite>
+    </sprites>
+    <sprite>sprites\GGintro</sprite>
+    <sprite>sprites\emp_powerup</sprite>
+    <sprite>sprites\cow</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\first_room_bg</background>
@@ -49,11 +61,12 @@
   <paths name="paths">
     <path>paths\piston1</path>
   </paths>
+  <fonts name="fonts">
+    <font>fonts\score_ft</font>
+  </fonts>
   <objects name="objects">
     <object>objects\robot_obj</object>
-    <object>objects\magnet_obj</object>
     <object>objects\portal_obj</object>
-    <object>objects\poisionobj</object>
     <object>objects\trail_obj</object>
     <object>objects\piston_obj</object>
     <object>objects\door_obj</object>
@@ -65,17 +78,27 @@
     </objects>
     <object>objects\obj_room_controller</object>
     <object>objects\obj_pause_menu_controller</object>
-    <object>objects\object14</object>
     <objects name="MainMenu">
       <object>objects\menu_start_obj</object>
       <object>objects\menu_quit_obj</object>
+      <object>objects\menu_credits_obj</object>
+      <object>objects\menu_story_obj</object>
     </objects>
+    <object>objects\emp_powerup_obj</object>
+    <objects name="Ememys">
+      <object>objects\enemy_spawn</object>
+      <object>objects\enemy_obj</object>
+      <object>objects\magnet_obj</object>
+      <object>objects\poisionobj</object>
+    </objects>
+    <object>objects\cow_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\intro_room</room>
     <room>rooms\main_menu</room>
     <room>rooms\first_Room_Upton</room>
     <room>rooms\room0</room>
+    <room>rooms\room4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -202,7 +202,6 @@
     <instance objName="ground1" x="864" y="288" name="inst_CC4DD4AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="portal_obj" x="1184" y="192" name="inst_EFA5A093" locked="0" code="" scaleX="2.03225803375244" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_room_controller" x="0" y="32" name="inst_F854A780" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object14" x="96" y="32" name="inst_577FCF25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground1" x="416" y="256" name="inst_A58E09E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground1" x="448" y="256" name="inst_532E8615" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground1" x="448" y="224" name="inst_BDC3A69F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -221,6 +220,7 @@
     <instance objName="ground1" x="288" y="0" name="inst_BC45C655" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground1" x="544" y="128" name="inst_717B0E64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground1" x="544" y="96" name="inst_79BFD204" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="magnet_obj" x="137" y="43" name="inst_0FB0FAC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
